@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDICLE - Library Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Page title -->
+    <h1>MEDICLE Library Management</h1>
+    
+    <!-- Main container for library management functions -->
+    <div id="library-container">
+        <!-- Section for adding new illnesses -->
+        <h2>Add New Illness</h2>
+        <input type="text" id="new-illness-name" placeholder="Illness Name">
+        <input type="text" id="new-illness-symptoms" placeholder="Symptoms (comma-separated)">
+        <button id="add-illness-btn">Add Illness</button>
+        
+        <!-- Section for displaying and managing existing illnesses -->
+        <h2>Current Library</h2>
+        <div id="illness-list"></div>
+        
+        <!-- Button to clear the entire library -->
+        <button id="clear-library-btn">Clear Library</button>
+    </div>
+    
+    <!-- Navigation link back to the main game -->
+    <a href="index.html" class="button">Back to Game</a>
+    
+    <!-- Library management script -->
+    <script src="library.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,143 @@
+/* Global styles for the entire application */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Heading styles */
+h1,
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Score display container - New feature for the scoring system */
+#score-container {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+/* Main containers for game and library management */
+#game-container,
+#library-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Container for displaying symptoms */
+#symptoms-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Individual symptom display boxes */
+.symptom {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Container for the input field and submit button */
+#input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Text input field styles */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+/* Button and link styles */
+button,
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Button hover effect */
+button:hover,
+.button:hover {
+  background-color: #27ae60;
+}
+
+/* Message display area */
+#message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Restart button specific styles */
+#restart-btn {
+  background-color: #3498db;
+}
+
+#restart-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Clear library button specific styles - danger color */
+#clear-library-btn {
+  background-color: #e74c3c;
+}
+
+#clear-library-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Library container specific layout */
+#library-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#library-container input {
+  margin-bottom: 10px;
+}
+
+/* Illness list container */
+#illness-list {
+  margin-top: 20px;
+}
+
+/* Individual illness item in the library */
+.illness-item {
+  background-color: #ecf0f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
